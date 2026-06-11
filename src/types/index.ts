@@ -44,6 +44,7 @@ export type User = Models.Document & {
   imageUrl: string;
   bio: string;
   posts: Post[];
+  imageId: string;
 };
 
 export type INavLink = {

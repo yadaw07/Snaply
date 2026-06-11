@@ -187,7 +187,7 @@ const PostForm = ({ post, action }: PostFormProps) => {
             className='shad-button_dark_4'
             onClick={cancelForm} // forces FileUploader to remount
           >
-            Cancel
+            Clear
           </Button>
           <Button
             type='submit'

@@ -8,10 +8,7 @@ import {
 } from 'react-router-dom';
 
 import { Button } from '@/components/ui/button';
-import {
-  useGetUserById,
-  useGetCurrentUser,
-} from '@/lib/tanstack-query/queriesAndMutaions';
+import { useGetUserById } from '@/lib/tanstack-query/queriesAndMutaions';
 import { useAuthStore } from '@/zustand_store/authStore';
 
 import LikedPosts from './LikedPosts';
@@ -35,12 +32,10 @@ const Profile = () => {
   const { pathname } = useLocation();
 
   const { data: currentUser } = useGetUserById(id || '');
-  const { data: currentUser2 } = useGetCurrentUser();
 
   const isHidden = user.id !== currentUser?.$id;
 
   console.log('currentUser', currentUser);
-  console.log('currentUser2', currentUser2);
 
   return (
     <div className='profile-container'>
