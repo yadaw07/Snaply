@@ -65,10 +65,6 @@ Whether you're sharing your latest photo, exploring trending posts, or managing 
 
 ## 📸 Screenshots
 
----
-
-## 📸 Screenshots
-
 <table>
 <tr>
 <td align="center"><strong>Home Feed</strong></td>
