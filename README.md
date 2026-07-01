@@ -101,7 +101,7 @@ Make sure you have the following installed:
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yadawprodev/Snaply.git
+git clone https://github.com/yadaw07/Snaply.git
 cd snaply
 ```
 
@@ -170,12 +170,12 @@ Distributed under the **MIT License**. See [`LICENSE`](./LICENSE) for more infor
 
 **Yadiel Tesfaye** — yadawprodev@gmail.com
 
-GitHub: [https://github.com/yadawprodev]
+GitHub: [https://github.com/yadaw07]
 
-Project Link: [https://github.com/yadawprodev/Snaply]
+Project Link: [https://github.com/yadaw07/Snaply]
 
 ---
 
 <div align="center">
-  <sub>Built by <a href="https://github.com/yadawprodev">Yadiel Tesfaye</a></sub>
+  <sub>Built by <a href="https://github.com/yadaw07">Yadiel Tesfaye</a></sub>
 </div>
